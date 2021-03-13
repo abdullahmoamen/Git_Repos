@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:cursive;
+    /* background-color:rgb(211, 211, 211); */
+}
+.repos-container{
+    width:900px;
+    margin: auto;
+}
+.repos-container .get-repos{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(241, 238, 238);
+}
+.repos-container .get-repos input{
+    width: 100%;
+    padding:15px 20px;
+    border: none;
+    font-size:20px;
+    height: 50px;
+}
+.repos-container .get-repos input:focus{
+    outline: 2px solid rgb(211, 63, 63);
+}
+.repos-container .get-repos .get-button{
+    width: 150px;
+    height: 50px;
+    margin-left: 9px;
+    background-color: rgb(211, 63, 63);
+    color: #fff;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.repos-container .show-data{
+    padding:20px;
+    background-color: rgb(219, 218, 218);
+}
+.repos-container .show-data div{
+    color:black;
+    font-size:20px;
+    padding: 5px;
+    margin: 5px;
+}
+.main-box{
+    background-color: #fff !important;
+    padding:25px;
+    border-radius: 5px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: red;
+    float:right;
+}
+a:hover{
+    color:black;
+    transform: scale(1.2);
+    transition:0.5s ease-in-out;
+}
